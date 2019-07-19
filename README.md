@@ -6,3 +6,7 @@ You'll need to take a look at the folders in the install.sh and the city name in
 
 ![Screenshot](./screen.png)
 
+## Packages Used
+
+- [pyephem](https://astral.readthedocs.io/en/latest/)
+- [Astral](https://astral.readthedocs.io/en/latest/)
