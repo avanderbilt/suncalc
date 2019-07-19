@@ -84,7 +84,8 @@ def print_moon():
     elif 0 < phase < 0.25:
         moon = "%swaxing%s %s (crescent)" % (Fore.GREEN + Style.BRIGHT, Fore.RESET + Style.RESET_ALL, u"\U0001F312")
     elif phase == 0.25:
-        moon = "%swaxing%s %s (first quarter)" % (Fore.GREEN+ Style.BRIGHT, Fore.RESET + Style.RESET_ALL, u"\U0001F313")
+        moon = "%swaxing%s %s (first quarter)" % (
+        Fore.GREEN + Style.BRIGHT, Fore.RESET + Style.RESET_ALL, u"\U0001F313")
     elif 0.25 < phase < 0.5:
         moon = "%swaxing%s %s (gibbous)" % (Fore.GREEN + Style.BRIGHT, Fore.RESET + Style.RESET_ALL, u"\U0001F314")
     elif phase == 0.5:
@@ -108,4 +109,3 @@ def print_report():
 
     print_sun()
     print_moon()
-
