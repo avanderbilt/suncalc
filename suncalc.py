@@ -109,4 +109,3 @@ def print_report():
     print_sun()
     print_moon()
 
-print_report()
