@@ -99,7 +99,7 @@ def print_moon():
     else:
         moon = ""
 
-    print("The moon is currently %s.\n" % moon)
+    print("The moon is currently %s (%s).\n" % (moon, "{0:.0%}".format(phase)))
 
 
 def print_report():
